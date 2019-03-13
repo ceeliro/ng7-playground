@@ -1,0 +1,4 @@
+<app-side-bar></app-side-bar>
+<app-side-menu  *ngIf="isSideMenu$ | async" @slideInOut class="insert-remove-container">
+</app-side-menu>
+<router-outlet></router-outlet>

@@ -1,0 +1,5 @@
+<p>
+  side-menu works!
+  <app-obj-tree [data]="sideMenuOptionsTree$ | async" [multi]="false"
+    (change)="selectionChanged($event)"></app-obj-tree>
+</p>
